@@ -6,6 +6,15 @@ document.getElementById("btn").onclick = function () {
     console.log(r,g,b);
     changeRgbText(r,g,b);
     rgbToHex(r,g,b);
+    if ((r < 127) && (g < 127) && (b < 127)) {
+        document.body.style.color = "white";
+        document.getElementById("btn").style.color = "white";
+        document.getElementById("btn").style.borderColor = "white";
+    } else {
+        document.body.style.color = "black";
+        document.getElementById("btn").style.color = "black";
+        document.getElementById("btn").style.borderColor = "black";
+    }
     document.body.style.background = "rgb("+r+","+g+","+b+")";
 }
 

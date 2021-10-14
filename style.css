@@ -30,10 +30,10 @@ button {
   padding: 20px;
   margin: 5px;
   width: 200px;
-  -webkit-transition: all 0.5s;
+  /* -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
-  transition: all 0.5s;
+  transition: all 0.5s; */
   cursor: pointer;
   outline: none;
 }
